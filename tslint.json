@@ -59,9 +59,11 @@
       "check-operator",
       "check-separator",
       "check-type"
-    ]
+    ],
+    "no-toplevel-property-access": true
   },
   "rulesDirectory": [
-    "tslint-no-unused-expression-chai"
+    "tslint-no-unused-expression-chai",
+    "custom_tslint_rules"
   ]
 }

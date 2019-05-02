@@ -54,6 +54,7 @@ export type ObservableInput<T> = SubscribableOrPromise<T> | ArrayLike<T> | Itera
 /** @deprecated use {@link InteropObservable } */
 export type ObservableLike<T> = InteropObservable<T>;
 
+// tslint:disable-next-line:no-toplevel-property-access
 export type InteropObservable<T> = { [Symbol.observable]: () => Subscribable<T>; };
 
 /** OBSERVER INTERFACES */

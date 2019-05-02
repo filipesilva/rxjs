@@ -4,6 +4,7 @@ import { isFunction } from '../util/isFunction';
 import { Subscriber } from '../Subscriber';
 import { map } from '../operators/map';
 
+// tslint:disable-next-line:no-toplevel-property-access
 const toString: Function = Object.prototype.toString;
 
 export interface NodeStyleEventEmitter {

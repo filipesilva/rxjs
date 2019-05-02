@@ -2,6 +2,7 @@
 export const rxSubscriber =
   typeof Symbol === 'function'
     ? Symbol('rxSubscriber')
+    // tslint:disable-next-line:no-toplevel-property-access
     : '@@rxSubscriber_' + Math.random();
 
 /**

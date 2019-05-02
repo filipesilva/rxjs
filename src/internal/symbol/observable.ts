@@ -8,4 +8,5 @@ declare global {
 }
 
 /** Symbol.observable or a string "@@observable". Used for interop */
+// tslint:disable-next-line:no-toplevel-property-access
 export const observable = typeof Symbol === 'function' && Symbol.observable || '@@observable';
